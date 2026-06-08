@@ -1,0 +1,6 @@
+model,role,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+Rule-Based Baseline,Traditional heuristic SOC logic,0.33,0.3199,0.33,0.2899,0.2899
+TF-IDF + Logistic Regression,Classical ML classifier,0.7967,0.8049,0.7967,0.7952,0.7952
+Qwen Zero-Shot,Direct LLM classification,0.3233,0.2155,0.3233,0.2585,0.2585
+Qwen Few-Shot,Prompt-engineered LLM classification,0.4067,0.3899,0.4067,0.3813,0.3813
+Hybrid ML + Qwen,ML prediction with LLM explanation and playbook generation,0.7967,0.8049,0.7967,0.7952,0.7952
