@@ -1,5 +1,13 @@
 # LLM-SOC: Hybrid Alert Triage and Response Guidance using Public Security Incident Data
 
+Course Name: Applying LLMs in Cybersecurity Systems
+Group Number: 第12組
+Group Name: CyberDefense
+Team Members:
+Alim Misbullah 
+Laina Farsiah 
+Moh. Jabir Mubarok 
+
 This repository contains the experimental pipeline for **SOC alert triage using public security incident data, classical machine learning, Qwen LLM prompting, and LoRA-SFT fine-tuning**.
 
 The project evaluates whether Large Language Models can classify SOC alerts directly and whether fine-tuning improves their performance. It also compares LLM-based methods with traditional rule-based and classical machine-learning baselines.
