@@ -59,7 +59,7 @@ The selected labels are:
 ## Repository Structure
 
 ```text
-llm-soc-triage/
+llm-soc-hybrid-alert-triage-cybersecurity-project/
 ├── data/
 │   ├── raw/
 │   │   ├── GUIDE_Train.csv
@@ -83,11 +83,11 @@ llm-soc-triage/
 ├── src/
 │   ├── 01_explore_dataset.py
 │   ├── 02_preprocess.py
-│   ├── 03a_rule_based_baseline.py
+│   ├── 03_train_rule_based_baseline.py
 │   ├── 03_train_baseline.py
-│   ├── 03b_compare_results.py
 │   ├── 04_create_llm_eval_subset.py
-│   ├── 05_llm_triage_ollama.py
+│   ├── 04_evaluate_baselines_on_llm_subset.py
+│   ├── 05_llm_triage_zeroshot_ollama.py
 │   ├── 05b_llm_triage_fewshot_ollama.py
 │   ├── 06_evaluate_llm_predictions.py
 │   ├── 07_compare_all_models.py
