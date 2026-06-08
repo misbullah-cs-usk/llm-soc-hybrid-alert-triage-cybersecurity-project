@@ -14,6 +14,11 @@ The project evaluates whether Large Language Models can classify SOC alerts dire
 
 > Note: The SOC Dashboard has a separate README because it uses a different FastAPI + JavaScript application layer.
 
+#### Demo SOC Dashboard
+<video src="soc-dashboard/SOC-Demo-Video-720p.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
+
 ---
 
 ## Project Overview
