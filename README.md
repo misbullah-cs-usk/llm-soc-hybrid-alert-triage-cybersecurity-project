@@ -14,10 +14,15 @@ The project evaluates whether Large Language Models can classify SOC alerts dire
 
 > Note: The SOC Dashboard has a separate README because it uses a different FastAPI + JavaScript application layer.
 
-#### Demo SOC Dashboard
+#### Demo Video
+
+The following video demonstrates the SOC dashboard workflow, including loading a sample alert, running hybrid triage, showing the ML prediction, and displaying Qwen-generated analyst guidance.
+
 <video src="soc-dashboard/SOC-Demo-Video-720p.mp4" controls width="100%">
   Your browser does not support the video tag.
 </video>
+
+[Download or watch the demo video](soc-dashboard/SOC-Demo-Video-720p.mp4)
 
 ---
 
