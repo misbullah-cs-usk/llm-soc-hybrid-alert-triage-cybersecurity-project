@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LLM-SOC Hybrid Alert Triage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>LLM-SOC Hybrid Alert Triage Dashboard</h1>
+      <p>
+        TF-IDF Logistic Regression predicts the incident grade.
+        Qwen generates analyst explanation and response guidance.
+      </p>
+    </header>
+
+    <section class="panel">
+      <h2>1. Select or Paste Security Alert</h2>
+
+      <div class="controls">
+        <button id="loadSamplesBtn">Load Sample Alerts</button>
+        <select id="sampleSelect">
+          <option value="">Select sample alert</option>
+        </select>
+      </div>
+
+      <label for="alertText">Alert Text</label>
+      <textarea id="alertText" rows="8" placeholder="Paste alert_text here..."></textarea>
+
+      <button id="triageBtn" class="primary">Run Hybrid Triage</button>
+      <p id="status"></p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>ML Predicted Label</h3>
+        <p id="predictedLabel" class="big">-</p>
+      </div>
+
+      <div class="card">
+        <h3>Containment Priority</h3>
+        <p id="containmentPriority" class="big">-</p>
+      </div>
+
+      <div class="card">
+        <h3>LLM Latency</h3>
+        <p id="latency" class="big">-</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>2. Analyst Summary</h2>
+      <p id="analystSummary">No result yet.</p>
+    </section>
+
+    <section class="panel">
+      <h2>3. Risk Explanation</h2>
+      <p id="riskExplanation">No result yet.</p>
+    </section>
+
+    <section class="panel">
+      <h2>4. MITRE Interpretation</h2>
+      <ul id="mitreList"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>5. Recommended Response Actions</h2>
+      <ol id="actionsList"></ol>
+    </section>
+
+    <section class="panel">
+      <h2>6. Raw LLM JSON</h2>
+      <pre id="rawJson"></pre>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

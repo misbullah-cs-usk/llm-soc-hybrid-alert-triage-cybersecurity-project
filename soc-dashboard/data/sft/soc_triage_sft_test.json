@@ -1,0 +1,1502 @@
+[
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 789 | AlertTitle: 1079 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 68 | AlertTitle: 453 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 357 | AlertTitle: 5519 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: T1559;T1106;T1059.005 | EntityType: File | EvidenceRole: Related | DetectorId: 39 | AlertTitle: 26 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 10 | State: 7 | City: 4 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 19 | AlertTitle: 15 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.001 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 10 | AlertTitle: 8 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 9 | AlertTitle: 47 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Discovery | MitreTechniques: T1046 | EntityType: Ip | EvidenceRole: Related | DetectorId: 185 | AlertTitle: 122 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 82 | AlertTitle: 60 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 0 | OSVersion: 0\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 9 | AlertTitle: 74 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 4 | State: 4 | City: 16 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 4 | State: 4 | City: 12 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 3 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 3762 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: User | EvidenceRole: Impacted | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: User | EvidenceRole: Impacted | DetectorId: 11 | AlertTitle: 9 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 713 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Malware | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 940 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: T1046;T1071;T1210 | EntityType: Url | EvidenceRole: Related | DetectorId: 57 | AlertTitle: 29 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 65 | AlertTitle: 40739 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: UnwantedSoftware | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 4301 | AlertTitle: 24350 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 30 | AlertTitle: 21635 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 19928 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Url | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: LateralMovement | MitreTechniques: T1021.002;T1036.004;T1047;T1059.003;T1543.003;T1569.002;T1574.011 | EntityType: Process | EvidenceRole: Related | DetectorId: 544 | AlertTitle: 593 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 97 | AlertTitle: 1777 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 50 | AlertTitle: 36 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 18 | AlertTitle: 14 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 270 | AlertTitle: 258 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: T1071;T1048 | EntityType: Url | EvidenceRole: Related | DetectorId: 74 | AlertTitle: 55 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 81 | AlertTitle: 246 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 13 | State: 150 | City: 184 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 36 | AlertTitle: 378 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 29 | AlertTitle: 20 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 5 | AlertTitle: 21 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 130 | AlertTitle: 110 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 36 | AlertTitle: 1021 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 2 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 488 | AlertTitle: 270 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: T1559;T1106;T1059.005 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 39 | AlertTitle: 26 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Discovery | MitreTechniques: T1595 | EntityType: Ip | EvidenceRole: Related | DetectorId: 109 | AlertTitle: 87 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 94 | AlertTitle: 21190 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 38 | AlertTitle: 25 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 77 | AlertTitle: 31358 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 0 | OSVersion: 0\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 81 | AlertTitle: 246 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 28 | AlertTitle: 19 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Discovery | MitreTechniques: T1046 | EntityType: Ip | EvidenceRole: Related | DetectorId: 185 | AlertTitle: 122 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 42 | AlertTitle: 27 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 41 | AlertTitle: 58 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 52 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 136 | AlertTitle: 34185 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 70 | AlertTitle: 2492 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 22 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: T1046;T1071;T1210 | EntityType: Url | EvidenceRole: Related | DetectorId: 57 | AlertTitle: 29 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 41 | AlertTitle: 731 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 33 | AlertTitle: 22 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 208 | AlertTitle: 195 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 16 | AlertTitle: 1302 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 9 | State: 14 | City: 11 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonSession | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Discovery | MitreTechniques: T1087;T1087.002 | EntityType: User | EvidenceRole: Impacted | DetectorId: 27 | AlertTitle: 18 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Related | DetectorId: 883 | AlertTitle: 2883 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 13 | AlertTitle: 11 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 5 | AlertTitle: 3129 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Related | DetectorId: 152 | AlertTitle: 272 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 40 | AlertTitle: 3230 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Discovery | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 4318 | AlertTitle: 24619 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 24 | AlertTitle: 757 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 22 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 9 | AlertTitle: 47 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 24 | AlertTitle: 56927 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.001 | EntityType: User | EvidenceRole: Impacted | DetectorId: 10 | AlertTitle: 8 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 33 | AlertTitle: 22 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 529 | AlertTitle: 577 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: T1003;T1012;T1552.002 | EntityType: Process | EvidenceRole: Related | DetectorId: 56 | AlertTitle: 40 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 3 | State: 54 | City: 81 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 2 | State: 164 | City: 233 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 75 | AlertTitle: 41103 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1190 | EntityType: Ip | EvidenceRole: Related | DetectorId: 83 | AlertTitle: 61 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: T1110;T1110.001;T1110.003 | EntityType: User | EvidenceRole: Related | DetectorId: 121 | AlertTitle: 102 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 5 | AlertTitle: 21 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: T1046;T1071;T1210 | EntityType: Ip | EvidenceRole: Related | DetectorId: 57 | AlertTitle: 29 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: T1078;T1110 | EntityType: Ip | EvidenceRole: Related | DetectorId: 958 | AlertTitle: 1638 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 28 | AlertTitle: 19 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 34 | AlertTitle: 3351 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 38 | State: 58 | City: 55 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 52 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 171 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 52 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: T1110 | EntityType: User | EvidenceRole: Impacted | DetectorId: 879 | AlertTitle: 313 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 3067 | AlertTitle: 37032 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Malware | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 31 | AlertTitle: 554 | SuspicionLevel: Suspicious | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.001 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 10 | AlertTitle: 8 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 19 | AlertTitle: 15 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Collection | MitreTechniques: T1005 | EntityType: User | EvidenceRole: Impacted | DetectorId: 203 | AlertTitle: 170 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 136 | AlertTitle: 20105 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 22 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 76 | AlertTitle: 56 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 558 | AlertTitle: 609 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 20 | AlertTitle: 561 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 9 | State: 14 | City: 11 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 76 | AlertTitle: 56 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 31 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 28 | AlertTitle: 19 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonSession | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 21 | AlertTitle: 52 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 0 | State: 3 | City: 15 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 71 | AlertTitle: 824 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 893 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: T1110;T1110.003;T1110.001 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 14 | AlertTitle: 12 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: T1485 | EntityType: Ip | EvidenceRole: Related | DetectorId: 137 | AlertTitle: 116 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.001 | EntityType: File | EvidenceRole: Related | DetectorId: 10 | AlertTitle: 8 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 9 | AlertTitle: 45 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 32 | AlertTitle: 53725 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 136 | AlertTitle: 33602 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Malware | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 31 | AlertTitle: 206 | SuspicionLevel: Suspicious | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 80 | AlertTitle: 25709 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.001 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 10 | AlertTitle: 8 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 59 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 32 | AlertTitle: 140 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 590 | AlertTitle: 756 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 75 | AlertTitle: 2119 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 24 | AlertTitle: 919 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Malware | MitreTechniques: T1105;T1570 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 31 | AlertTitle: 2985 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 0 | OSVersion: 0\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 5 | AlertTitle: 31 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: T1046;T1071;T1210 | EntityType: Url | EvidenceRole: Related | DetectorId: 57 | AlertTitle: 29 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: User | EvidenceRole: Impacted | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 0 | State: 1 | City: 5 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 0 | OSVersion: 0\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: T1041 | EntityType: File | EvidenceRole: Related | DetectorId: 348 | AlertTitle: 65 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 55 | AlertTitle: 37 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 97 | AlertTitle: 3980 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 11 | AlertTitle: 9 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1190;T1133 | EntityType: Url | EvidenceRole: Related | DetectorId: 116 | AlertTitle: 94 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 65 | AlertTitle: 43848 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 0 | State: 1 | City: 1 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 45 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 37 | AlertTitle: 73957 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 41 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 20 | AlertTitle: 10770 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: T1537 | EntityType: User | EvidenceRole: Impacted | DetectorId: 569 | AlertTitle: 637 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 16 | AlertTitle: 1055 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 16 | AlertTitle: 299 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 29 | AlertTitle: 20 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 32 | State: 45 | City: 44 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Malware | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 141 | AlertTitle: 364 | SuspicionLevel: Suspicious | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 2 | State: 2 | City: 195 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 15 | AlertTitle: 13 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 73 | AlertTitle: 54 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 30 | AlertTitle: 6244 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 34 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: DefenseEvasion | MitreTechniques: T1562 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 290 | AlertTitle: 96 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 19 | AlertTitle: 15 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Url | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: T1046;T1030;T1071;T1071.001 | EntityType: Ip | EvidenceRole: Related | DetectorId: 49 | AlertTitle: 35 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 28 | AlertTitle: 19 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 21 | AlertTitle: 41 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 22 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 427 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 23 | AlertTitle: 16 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 44 | AlertTitle: 342 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 46 | AlertTitle: 34535 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 5 | AlertTitle: 21 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 267 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 0 | State: 11 | City: 8 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Url | EvidenceRole: Related | DetectorId: 3 | AlertTitle: 4 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 460 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 11 | AlertTitle: 9 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: T1059.003 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 62 | AlertTitle: 46 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 0 | OSVersion: 0\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 1406 | AlertTitle: 25689 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 14 | State: 32 | City: 30 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Execution | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 9 | AlertTitle: 182 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 45 | AlertTitle: 1075 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 38 | AlertTitle: 25 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 61 | State: 128 | City: 2530 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 0 | State: 34 | City: 134 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 34 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 2 | State: 164 | City: 233 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 562 | AlertTitle: 8960 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Url | EvidenceRole: Related | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: CloudApplication | EvidenceRole: Impacted | DetectorId: 5 | AlertTitle: 62 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 17 | AlertTitle: 158 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 20 | AlertTitle: 17904 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 2 | State: 41 | City: 70 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 58 | AlertTitle: 43 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: T1030 | EntityType: Url | EvidenceRole: Related | DetectorId: 722 | AlertTitle: 105 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 18 | AlertTitle: 14 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 2 | AlertTitle: 2 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: File | EvidenceRole: Related | DetectorId: 334 | AlertTitle: 337 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: T1531 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 416 | AlertTitle: 442 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CredentialAccess | MitreTechniques: T1558;T1558.003 | EntityType: Machine | EvidenceRole: Related | DetectorId: 665 | AlertTitle: 891 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.001 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 10 | AlertTitle: 8 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 7 | AlertTitle: 6 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 112 | AlertTitle: 21240 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 25 | AlertTitle: 17 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 52 | AlertTitle: 10 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 18 | AlertTitle: 14 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566.002 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 1 | AlertTitle: 1 | SuspicionLevel: unknown | LastVerdict: Malicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 181 | AlertTitle: 6801 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonSession | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 19 | AlertTitle: 15 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 23 | State: 60 | City: 61 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailCluster | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: CommandAndControl | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 23 | AlertTitle: 16 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: Ip | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 7 | State: 8 | City: 6 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Impact | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 12 | AlertTitle: 180 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Malware | MitreTechniques: T1046 | EntityType: Process | EvidenceRole: Related | DetectorId: 36 | AlertTitle: 228 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 636 | AlertTitle: 838 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: User | EvidenceRole: Impacted | DetectorId: 19 | AlertTitle: 15 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: User | EvidenceRole: Impacted | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 462 | AlertTitle: 490 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: Mailbox | EvidenceRole: Related | DetectorId: 20 | AlertTitle: 8078 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: Mailbox | EvidenceRole: Impacted | DetectorId: 35 | AlertTitle: 23 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 431 | AlertTitle: 456 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: Ip | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 22 | State: 52 | City: 49 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: File | EvidenceRole: Impacted | DetectorId: 144 | AlertTitle: 4769 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: unknown | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 4 | AlertTitle: 3 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: Exfiltration | MitreTechniques: unknown | EntityType: MailMessage | EvidenceRole: Impacted | DetectorId: 30 | AlertTitle: 5509 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1566 | EntityType: MailMessage | EvidenceRole: Related | DetectorId: 6 | AlertTitle: 5 | SuspicionLevel: unknown | LastVerdict: NoThreatsFound | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"BenignPositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: SuspiciousActivity | MitreTechniques: unknown | EntityType: Process | EvidenceRole: Related | DetectorId: 36 | AlertTitle: 118 | SuspicionLevel: Suspicious | LastVerdict: Suspicious | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1078;T1078.004 | EntityType: CloudLogonRequest | EvidenceRole: Related | DetectorId: 0 | AlertTitle: 0 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"TruePositive\"}"
+  },
+  {
+    "instruction": "You are a cybersecurity SOC alert triage analyst.\nClassify the alert into exactly one label:\nTruePositive, FalsePositive, or BenignPositive.\nReturn only valid JSON with this schema:\n{\"predicted_label\":\"TruePositive or FalsePositive or BenignPositive\"}",
+    "input": "Security alert:\nCategory: InitialAccess | MitreTechniques: T1133 | EntityType: Machine | EvidenceRole: Impacted | DetectorId: 8 | AlertTitle: 7 | SuspicionLevel: unknown | LastVerdict: unknown | CountryCode: 242 | State: 1445 | City: 10630 | OSFamily: 5 | OSVersion: 66\n\nReturn only JSON.",
+    "output": "{\"predicted_label\": \"FalsePositive\"}"
+  }
+]
