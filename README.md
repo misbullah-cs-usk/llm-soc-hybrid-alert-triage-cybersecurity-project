@@ -1,15 +1,12 @@
 # LLM-SOC: Hybrid Alert Triage and Response Guidance using Public Security Incident Data
 
 Course Name: Applying LLMs in Cybersecurity Systems
-
 Group Number: 第12組
-
 Group Name: CyberDefense
-
 Team Members:
-Alim Misbullah 
-Laina Farsiah 
-Moh. Jabir Mubarok 
+- Alim Misbullah
+- Laina Farsiah
+- Moh. Jabir Mubarok 
 
 This repository contains the experimental pipeline for **SOC alert triage using public security incident data, classical machine learning, Qwen LLM prompting, and LoRA-SFT fine-tuning**.
 
