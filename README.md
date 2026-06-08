@@ -1,8 +1,8 @@
 # LLM-SOC: Hybrid Alert Triage and Response Guidance using Public Security Incident Data
 
-Course Name: Applying LLMs in Cybersecurity Systems
-Group Number: 第12組
-Group Name: CyberDefense
+## Course Name: Applying LLMs in Cybersecurity Systems
+### Group Number: 第12組
+### Group Name: CyberDefense
 Team Members:
 - Alim Misbullah
 - Laina Farsiah
