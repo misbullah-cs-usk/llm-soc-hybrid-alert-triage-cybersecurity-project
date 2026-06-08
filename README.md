@@ -88,13 +88,13 @@ llm-soc-hybrid-alert-triage-cybersecurity-project/
 │   ├── 04_create_llm_eval_subset.py
 │   ├── 04_evaluate_baselines_on_llm_subset.py
 │   ├── 05_llm_triage_zeroshot_ollama.py
-│   ├── 05b_llm_triage_fewshot_ollama.py
+│   ├── 05_llm_triage_fewshot_ollama.py
 │   ├── 06_evaluate_llm_predictions.py
 │   ├── 07_compare_all_models.py
 │   ├── 08_hybrid_ml_llm_poc.py
 │   ├── 09_export_demo_examples.py
-│   ├── 11_prepare_sft_dataset.py
-│   └── 12_evaluate_sft_model.py
+│   ├── 10_prepare_sft_dataset.py
+│   └── 11_evaluate_sft_model.py
 ├── requirements.txt
 └── README.md
 ```
